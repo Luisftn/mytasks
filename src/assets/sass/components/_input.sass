@@ -1,0 +1,17 @@
+@use '../abstracts/variables'
+
+.input
+    font-size: 1rem
+    padding: 1rem
+    width: 100%
+
+    &:focus
+        outline: 2px solid variables.$outline-field-color
+
+    &--icon
+        padding-left: 3rem
+        background-repeat: no-repeat
+        background-position: left .8rem center
+
+    &--search
+        background-image: url('../../images/icons/magnify.svg')
