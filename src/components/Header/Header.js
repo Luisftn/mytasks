@@ -7,7 +7,7 @@ import { mdiMenu } from "@mdi/js";
 function Navbar() {
   return (
     <header className="header">
-      <button className="header__menu">
+      <button>
         <Icon path={mdiMenu} size={1.3} />
       </button>
       <p>MyTasks</p>
