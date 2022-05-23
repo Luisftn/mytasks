@@ -20,9 +20,7 @@ function Navbar() {
       </button>
       <p>MyTasks</p>
     </header>
-  );
-
-  
+  ); 
 }
 
 export default Navbar;
